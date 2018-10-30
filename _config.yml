@@ -2,7 +2,7 @@ name: Grumpy engineer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 #theme: jekyll-theme-architect
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 skin: dark
 plugins:
   - jekyll-paginate
