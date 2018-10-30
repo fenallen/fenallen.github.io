@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "A Test Bolog Entry"
 date: 2018-10-28
 ---
