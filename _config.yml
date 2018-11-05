@@ -1,9 +1,11 @@
 name: Grumpy engineer
+title: Inside the head of a grumpy engineer
+site.description: Just another personal site by someone who thinks they ahve something to say.
+url: "https://fenallen.github.io"
+repositoery: "https://github.com/fenallen/fenallen.github.io"
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-#theme: jekyll-theme-architect
-#remote_theme: "mmistakes/minimal-mistakes"
-skin: dark
+minimal_mistakes_skin: "default"
 plugins:
 #  - jekyll-paginate
 #  - jekyll-sitemap
@@ -11,3 +13,11 @@ plugins:
 #  - jekyll-feed
 #  - jemoji
   - jekyll-include-cache
+
+defaults:
+# _posts
+- scope:
+    path: ""
+    type: posts
+  values:
+    comments: true
