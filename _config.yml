@@ -19,6 +19,13 @@ include: ["_pages"]
 site.comments:
   provider: "staticman_v2"
 
+# _config.yml (defaults)
+repository  : "fenallen/fenallen.github.io"
+comments:
+  provider  : "staticman_v2"
+  staticman:
+    branch    : "master"
+
 defaults:
 # _pages
 - scope:
