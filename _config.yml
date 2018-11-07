@@ -16,7 +16,7 @@ plugins:
 
 include: ["_pages"]
 
-comments:
+site.comments:
   provider: "staticman_v2"
 
 defaults:
