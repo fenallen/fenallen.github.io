@@ -16,15 +16,21 @@ plugins:
 
 include: ["_pages"]
 
-site.comments:
-  provider: "staticman_v2"
-
 # _config.yml (defaults)
-repository  : "fenallen/fenallen.github.io"
+#repository: "fenallen/fenallen.github.io"
+#staticman:
+#  endpoint: "http://localhost:8088/v2/entry/"
+#  branch: "master"
+
+#reCaptcha:
+#  enabled: false
+
 comments:
-  provider  : "staticman_v2"
-  staticman:
-    branch    : "master"
+  provider: "disqus"
+  disqus:
+    shortname: "fenallen"
+  #provider: "staticman_v2"
+
 
 defaults:
 # _pages
@@ -39,10 +45,10 @@ defaults:
     path: ""
     type: posts
   values:
+    comments: true
     layout: single
     author_profile: true
     read_time: true
-    comments: true
     share: true
     related: true
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "A Test Bolog Entry"
+title: "A Test Blog Entry"
 date: 2018-10-28
 ---
 
