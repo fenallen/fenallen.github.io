@@ -6,4 +6,3 @@ author_profile: true
 header:
     overlay_image: /assets/images/banner_paola_slim.jpg
 ---
-

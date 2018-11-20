@@ -1,6 +1,6 @@
 name: Grumpy engineer
 title: Inside the head of a grumpy engineer
-site.description: Just another personal site by someone who thinks they ahve something to say.
+site.description: An engineer looking at the world with a critical eye.
 url: "https://fenallen.github.io"
 repositoery: "https://github.com/fenallen/fenallen.github.io"
 markdown: kramdown
@@ -51,9 +51,10 @@ defaults:
     read_time: true
     share: true
     related: true
+    toc: true
 
 author:
   name     : "Allen"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "My awesome biography constrained to a sentence or two goes here."
+  bio      : "An engineer looking at the world with a critical eye."
   location : "Oxfordshire, UK"
